@@ -4,85 +4,110 @@
 
 ## 1. Descripción del proyecto
 
-Mini-Juztina es un prototipo de aplicación web conversacional orientado a facilitar la consulta de legislación peruana, especialmente de la Constitución Política del Perú y el Código Penal.
+Mini-Juztina es un proyecto que busca facilitar la consulta de legislación peruana a través de una aplicación web conversacional. Está orientado principalmente a la consulta de la Constitución Política del Perú y el Código Penal.
 
-El proyecto propone utilizar un sistema de generación aumentada por recuperación (RAG, *Retrieval-Augmented Generation*) para localizar información relevante en documentos jurídicos y utilizarla como fundamento de las respuestas.
+La idea es que los usuarios puedan realizar preguntas en lenguaje natural y obtener respuestas basadas en información recuperada de documentos jurídicos. Para ello, el proyecto utiliza el enfoque RAG (*Retrieval-Augmented Generation*), que combina la búsqueda de información relevante con la generación de respuestas mediante un modelo de lenguaje.
 
-La aplicación está planteada para funcionar localmente, priorizando la privacidad de las consultas y el acceso organizado a las fuentes normativas.
-
-Actualmente, el frontend está desarrollado con React y Vite. La integración del backend jurídico y del sistema RAG se encuentra pendiente.
+El sistema está diseñado para funcionar localmente, con el propósito de reducir la dependencia de servicios externos y ofrecer un mayor control sobre el procesamiento de las consultas. La integración y validación de todos sus componentes forman parte del desarrollo del proyecto.
 
 ## 2. Objetivo general
 
-Desarrollar un asistente jurídico local que facilite la consulta de normativa peruana mediante una interfaz conversacional y un sistema de recuperación documental que permita identificar las disposiciones legales relevantes para cada consulta.
+Desarrollar un asistente jurídico local que facilite la consulta de legislación peruana mediante una interfaz conversacional y un sistema de recuperación de información que permita encontrar disposiciones legales relacionadas con las preguntas del usuario.
 
-## 3. Tecnologías del proyecto
+## 3. Arquitectura del proyecto
 
-### Frontend implementado
+Mini-Juztina está organizado en varios componentes que cumplen funciones específicas:
 
-- **React:** desarrollo de la interfaz de usuario.
-- **Vite:** entorno de desarrollo y herramienta de construcción.
-- **JavaScript:** lógica de interacción.
-- **CSS:** diseño visual y temas de la aplicación.
-- **LocalStorage:** almacenamiento de la preferencia de tema.
+| Componente | Función |
+|---|---|
+| Frontend | Permite al usuario realizar consultas e interactuar con la aplicación. |
+| API | Gestiona la comunicación entre la interfaz y los componentes del backend. |
+| Motor RAG | Coordina la recuperación de información jurídica y la generación de respuestas. |
+| Corpus jurídico | Contiene los documentos legales utilizados como fuentes de consulta. |
+| Almacenamiento vectorial | Permite organizar y recuperar información mediante representaciones semánticas. |
+| Pruebas | Ayudan a comprobar el funcionamiento de los componentes y detectar posibles errores. |
 
-### Backend y recuperación documental previstos
+Estos componentes deben trabajar de manera coordinada para que el sistema pueda responder consultas utilizando información jurídica relevante.
 
-- **FastAPI:** API para la comunicación entre el frontend y el backend.
-- **Ollama:** ejecución local de un modelo de lenguaje.
-- **ChromaDB:** almacenamiento y recuperación vectorial.
-- **Embeddings:** representación semántica de los documentos jurídicos.
-- **RAG:** recuperación de fragmentos normativos relevantes para fundamentar las respuestas.
+## 4. Tecnologías utilizadas y previstas
 
-Los componentes previstos se integrarán y validarán durante las siguientes etapas del desarrollo.
+### Frontend
 
-## 4. Corpus jurídico
+- **React:** permite construir la interfaz de usuario.
+- **Vite:** facilita el desarrollo y la ejecución de la aplicación web.
+- **JavaScript:** gestiona la lógica y las interacciones de la interfaz.
+- **CSS:** define los estilos visuales y los temas de la aplicación.
+- **LocalStorage:** permite guardar la preferencia de tema en el navegador.
 
-El repositorio contiene documentos jurídicos en PDF y sus correspondientes archivos estructurados en formato JSONL.
+### Backend y sistema RAG
+
+- **Python:** se utiliza para desarrollar los componentes del backend.
+- **FastAPI:** está previsto para gestionar las solicitudes a través de una API.
+- **Ollama:** está contemplado para ejecutar un modelo de lenguaje localmente.
+- **ChromaDB:** está previsto para el almacenamiento y la recuperación vectorial.
+- **Embeddings:** permiten representar semánticamente los documentos para facilitar su búsqueda.
+- **RAG:** combina la recuperación de información jurídica con la generación de respuestas.
+
+La configuración y disponibilidad de estas tecnologías deben comprobarse en los archivos del proyecto y en las pruebas correspondientes.
+
+## 5. Corpus jurídico
+
+El proyecto incluye documentos de referencia en formato PDF y archivos estructurados en formato JSONL. Estos últimos permiten organizar el contenido jurídico para facilitar su procesamiento posterior.
 
 | Documento | Archivo PDF | Archivo JSONL |
 |---|---|---|
-| Constitución Política del Perú | `Constitucion-web_2026.pdf` | `constitucion.jsonl` |
-| Código Penal | `codigo-penal.pdf` | `codigo_penal_articulos.jsonl` |
+| Constitución Política del Perú | `corpus-juridico/Constitucion-web_2026.pdf` | `corpus-juridico/constitucion.jsonl` |
+| Código Penal | `corpus-juridico/codigo-penal.pdf` | `corpus-juridico/codigo_penal_articulos.jsonl` |
 
-Los PDF se utilizan como documentos de referencia, mientras que los archivos JSONL permiten organizar el contenido para su posterior procesamiento y recuperación.
+Los documentos PDF permiten consultar el contenido de referencia, mientras que los archivos JSONL están destinados a facilitar la organización y recuperación de la información.
 
-La integridad, exactitud y vigencia de los textos deberán verificarse con las fuentes oficiales correspondientes antes de utilizarlos para generar respuestas jurídicas.
+Antes de utilizar estos datos para responder consultas jurídicas, es importante comprobar que su contenido sea íntegro y coincida con las publicaciones oficiales aplicables.
 
-## 5. Estructura del repositorio
+## 6. Estructura del repositorio
+
+El repositorio reúne el frontend, los componentes del backend, el corpus jurídico y los archivos de apoyo al desarrollo.
 
 ```text
 Mini-Juztina/
 ├── README.md
+├── .gitignore
 ├── corpus-juridico/
 │   ├── Constitucion-web_2026.pdf
 │   ├── constitucion.jsonl
 │   ├── codigo-penal.pdf
 │   └── codigo_penal_articulos.jsonl
-└── mini-juztina-frontend/
-    ├── public/
-    ├── src/
-    │   ├── assets/
-    │   ├── App.jsx
-    │   ├── App.css
-    │   ├── index.css
-    │   └── main.jsx
-    ├── index.html
-    ├── package.json
-    ├── package-lock.json
-    ├── vite.config.js
-    └── README.md
+├── api/
+│   ├── main.py
+│   └── pilot.py
+├── core/
+│   ├── config.py
+│   ├── corpus.py
+│   ├── embeddings.py
+│   ├── ollama_client.py
+│   ├── rag_engine.py
+│   └── vector_store.py
+├── data/
+│   ├── processed/
+│   └── sources/
+├── tests/
+├── scripts/
+├── frondend/
+├── mini-juztina-frontend/
+├── requirements.txt
+├── requirements-api.txt
+├── requirements-lock.txt
+└── requirements-api-lock.txt
 ```
 
-## 6. Instalación y ejecución
+Esta estructura es orientativa. Algunas carpetas contienen archivos adicionales y pueden reorganizarse a medida que avance el desarrollo. El directorio `frondend/` conserva ese nombre en la rama integrada.
 
-### Requisitos previos
+## 7. Requisitos e instalación del frontend
+
+Para ejecutar el frontend se necesita:
 
 - Node.js, preferentemente una versión LTS compatible con Vite.
-- npm.
+- npm, incluido normalmente con Node.js.
 - Un navegador web moderno.
-
-Para ejecutar únicamente el frontend no es necesario instalar Python, Ollama ni ChromaDB.
 
 ### Clonar el repositorio
 
@@ -90,10 +115,10 @@ Para ejecutar únicamente el frontend no es necesario instalar Python, Ollama ni
 git clone https://github.com/JunDa06/mini-juztina-frontend.git
 ```
 
-### Acceder al frontend
+### Acceder a la carpeta del frontend
 
 ```bash
-cd mini-juztina-frontend
+cd mini-juztina-frontend/mini-juztina-frontend
 ```
 
 ### Instalar las dependencias
@@ -108,67 +133,59 @@ npm install
 npm run dev
 ```
 
-Vite mostrará una dirección local, normalmente `http://localhost:5173/`, que podrás abrir en el navegador.
+Vite mostrará en la terminal una dirección local, normalmente `http://localhost:5173/`. Abre esa dirección en el navegador para visualizar la aplicación.
 
-Estas instrucciones permiten ejecutar el frontend. Las consultas jurídicas basadas en recuperación documental estarán disponibles cuando se integre y configure el backend.
+Estas instrucciones corresponden al frontend ubicado en `mini-juztina-frontend/mini-juztina-frontend`. El repositorio también contiene otra carpeta de frontend procedente de la rama integrada, por lo que conviene confirmar cuál se utilizará como versión principal.
 
-## 7. Funcionalidades del frontend
+## 8. Backend y recuperación de información
 
-La interfaz desarrollada incluye:
+Los componentes del backend se encuentran principalmente en las carpetas `api/` y `core/`.
 
-- Interfaz conversacional para consultas.
-- Tema claro y oscuro.
-- Preferencia visual guardada en el navegador.
-- Creación y eliminación de conversaciones.
-- Diferenciación visual entre mensajes del usuario y respuestas del asistente.
-- Tarjetas de acceso rápido para consultas constitucionales y penales.
-- Panel preparado para mostrar fuentes jurídicas.
-- Indicadores visuales de conexión y procesamiento.
+Entre los archivos relevantes se encuentran:
 
-Las conversaciones se mantienen actualmente en memoria y se pierden al recargar la página. El funcionamiento definitivo de las consultas y la presentación de fuentes dependerá de la integración del backend.
+- `api/main.py`: archivo principal de la API.
+- `api/pilot.py`: componente relacionado con las pruebas piloto.
+- `core/corpus.py`: gestión del corpus documental.
+- `core/embeddings.py`: procesamiento de representaciones semánticas.
+- `core/ollama_client.py`: componente para la comunicación con Ollama.
+- `core/rag_engine.py`: lógica del motor RAG.
+- `core/vector_store.py`: gestión del almacenamiento vectorial.
+- `core/config.py`: configuración del sistema.
 
-## 8. Arquitectura prevista
+Para preparar el entorno del backend, deben revisarse los archivos de dependencias y la documentación técnica incluida en `INTEGRATION.md`.
 
-El flujo general propuesto es el siguiente:
+La forma de iniciar el backend dependerá de la configuración efectiva de la API y de los servicios que requiera. Por ello, es necesario verificar el procedimiento de ejecución antes de considerarlo definitivo.
 
-1. El usuario formula una consulta desde el frontend.
-2. El frontend envía la consulta a la API local.
-3. El sistema RAG busca fragmentos pertinentes en el corpus jurídico.
-4. El modelo de lenguaje utiliza el contexto recuperado para generar una respuesta.
-5. El backend devuelve la respuesta y las referencias documentales disponibles.
-6. El frontend presenta la respuesta y sus fuentes al usuario.
+## 9. Pruebas y evaluación
 
-El endpoint previsto para la comunicación es `POST http://localhost:8000/api/chat`. Su funcionamiento dependerá de la implementación y validación del backend.
+El repositorio incluye pruebas y documentos destinados a evaluar diferentes componentes del sistema.
 
-## 9. Privacidad y consideraciones técnicas
+Entre los archivos de prueba se encuentran:
 
-El proyecto tiene como objetivo ejecutar localmente el procesamiento jurídico para reducir la dependencia de servicios externos.
+- `tests/test_api.py`
+- `tests/test_engine.py`
+- `tests/test_corpus_audit.py`
+- `tests/test_pilot.py`
+- `tests/integration_local.py`
 
-Sin embargo, la ejecución local del frontend no garantiza por sí sola que todo el procesamiento sea offline. Esta característica deberá verificarse cuando se integren el modelo de lenguaje, los embeddings, la recuperación documental y el backend.
+También se incluyen documentos como `TEST_RESULTS.md`, `INTEGRATION_RESULTS.md` e `INTEGRATION.md`, que sirven como referencia para revisar los procedimientos y resultados registrados.
 
-## 10. Estado del proyecto
+Estos archivos ayudan a documentar el desarrollo y la evaluación del proyecto. Sin embargo, sus resultados deben comprobarse en el entorno actual para confirmar que las pruebas siguen siendo válidas después de combinar las ramas.
 
-- [x] Desarrollo inicial del frontend con React y Vite.
-- [x] Preparación de documentos jurídicos en PDF.
-- [x] Disponibilidad de archivos estructurados en JSONL.
-- [x] Organización inicial del repositorio en GitHub.
-- [ ] Implementación del backend con FastAPI.
-- [ ] Integración del corpus jurídico con el sistema de recuperación.
-- [ ] Configuración del modelo de lenguaje local.
-- [ ] Integración del pipeline RAG.
-- [ ] Presentación de referencias jurídicas recuperadas.
-- [ ] Pruebas funcionales y validación de respuestas.
+## 10. Privacidad y consideraciones legales
 
-Esta lista deberá actualizarse conforme avance el desarrollo.
+Mini-Juztina está pensado para funcionar localmente, con el objetivo de mantener un mayor control sobre las consultas realizadas y reducir la dependencia de servicios externos.
 
-## 11. Trabajo colaborativo
+No obstante, que la interfaz se ejecute en el equipo del usuario no garantiza por sí solo que todo el procesamiento sea local. Para confirmar esta característica, será necesario comprobar que el modelo de lenguaje, los embeddings, la recuperación documental y la generación de respuestas no envíen información a servicios externos.
 
-El proyecto está organizado en componentes para facilitar el desarrollo y la integración de funcionalidades. Se recomienda utilizar Git y GitHub para el control de versiones, la revisión de cambios y la coordinación entre los integrantes.
+En el ámbito jurídico, las respuestas deberán contrastarse con fuentes oficiales y con la normativa vigente. Mini-Juztina es una herramienta tecnológica de apoyo a la consulta y no sustituye la asesoría de un profesional del derecho.
 
-## 12. Aviso legal
+## 11. Colaboración
 
-Mini-Juztina es un prototipo tecnológico de apoyo a la consulta jurídica. Sus respuestas deberán contrastarse con la normativa oficial vigente y no sustituyen la asesoría de un profesional del derecho.
+El proyecto se desarrolla de manera colaborativa y utiliza Git y GitHub para mantener el código organizado y facilitar la integración de los aportes de sus integrantes.
+
+Se recomienda revisar los cambios antes de combinarlos, mantener actualizadas las instrucciones de instalación y documentar las modificaciones importantes. Esto facilita el mantenimiento del proyecto y ayuda a que todos los integrantes trabajen sobre una estructura común.
 
 ## Licencia
 
-La licencia del proyecto está pendiente de definición. No debe asumirse que el código o los documentos incorporados pueden reutilizarse sin restricciones mientras no se determine la licencia aplicable.
+La licencia del proyecto está pendiente de definición. Hasta que se establezca una licencia aplicable, no debe asumirse que el código o los documentos incorporados pueden reutilizarse sin restricciones.
