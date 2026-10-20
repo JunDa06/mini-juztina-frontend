@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.pyc
+storage/
+models/
+.cache/
+.runtime/
+.venv313/
+.venv312/
+
+# Dependencias de Node.js
+node_modules/
+frondend/dist/
+
+# Paquetes y respaldos
+deliverables/
+backups/
+release/
+
+# Archivos de configuración privada
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+*.log
+.pytest_cache/
+.coverage

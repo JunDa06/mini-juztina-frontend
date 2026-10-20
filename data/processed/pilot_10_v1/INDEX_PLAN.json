@@ -1,0 +1,12 @@
+{
+  "pilot_dir": "C:\\Users\\senat\\Desktop\\Mini-Juztina\\data\\processed\\pilot_10_v1",
+  "corpus": "C:\\Users\\senat\\Desktop\\Mini-Juztina\\data\\processed\\pilot_10_v1\\articles_candidates.jsonl",
+  "corpus_sha256": "ced16af809467bef73fe5cf0dfd4db792dbdd7956543427880da2690533e81df",
+  "storage": "C:\\Users\\senat\\Desktop\\Mini-Juztina\\storage\\pilots\\pilot-10-ced16af809467bef",
+  "collection": "pilot_articles_6c8fe3e916f803a176aee9950c6e9dc62df438a6",
+  "embedding_model": "C:\\Users\\senat\\Desktop\\Mini-Juztina\\models\\multilingual-e5-small",
+  "embedding_sha256": "da1d6e4ae07ddd8a1aac69adb1bed966c76d28b7bc1efe715701c79f469db89c",
+  "registros": 10,
+  "juridicamente_verificado": false,
+  "operaciones_chroma_ejecutadas": false
+}

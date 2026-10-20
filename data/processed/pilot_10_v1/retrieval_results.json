@@ -1,0 +1,446 @@
+{
+  "modo": "experimental_no_cotejado",
+  "proceso_nuevo_abre_indice_persistido": true,
+  "corpus_sha256": "ced16af809467bef73fe5cf0dfd4db792dbdd7956543427880da2690533e81df",
+  "collection": "pilot_articles_6c8fe3e916f803a176aee9950c6e9dc62df438a6",
+  "storage": "C:\\Users\\senat\\Desktop\\Mini-Juztina\\storage\\pilots\\pilot-10-ced16af809467bef",
+  "registros": 10,
+  "fragmentos": 14,
+  "identidad_fragmentos_originales": true,
+  "busquedas_exactas": [
+    {
+      "documento": "Constitución Política del Perú",
+      "articulo": "1",
+      "fragmentos": 1,
+      "literal_encontrado": "Artículo 1. La defensa de la persona humana y el",
+      "ok": true
+    },
+    {
+      "documento": "Constitución Política del Perú",
+      "articulo": "2",
+      "fragmentos": 5,
+      "literal_encontrado": "Artículo 2. Toda persona tiene derecho: 1. Ala v",
+      "ok": true
+    },
+    {
+      "documento": "Constitución Política del Perú",
+      "articulo": "3",
+      "fragmentos": 1,
+      "literal_encontrado": "Artículo 3. La enumeración de los derechos estab",
+      "ok": true
+    },
+    {
+      "documento": "Constitución Política del Perú",
+      "articulo": "7",
+      "fragmentos": 1,
+      "literal_encontrado": "Artículo 7. Todos tienen derecho a la protección",
+      "ok": true
+    },
+    {
+      "documento": "Constitución Política del Perú",
+      "articulo": "7-A",
+      "fragmentos": 1,
+      "literal_encontrado": "Artículo 7-A. El Estado reconoce el derecho de t",
+      "ok": true
+    },
+    {
+      "documento": "Código Penal peruano",
+      "articulo": "16",
+      "fragmentos": 1,
+      "literal_encontrado": "En la tentativa el agente comienza la ejecución ",
+      "ok": true
+    },
+    {
+      "documento": "Código Penal peruano",
+      "articulo": "25",
+      "fragmentos": 1,
+      "literal_encontrado": "El que, dolosamente, preste auxilio para la real",
+      "ok": true
+    },
+    {
+      "documento": "Código Penal peruano",
+      "articulo": "111",
+      "fragmentos": 1,
+      "literal_encontrado": "El que, por culpa, ocasiona la muerte de una per",
+      "ok": true
+    },
+    {
+      "documento": "Código Penal peruano",
+      "articulo": "124",
+      "fragmentos": 1,
+      "literal_encontrado": "El que por culpa causa a otro un daño en el cuer",
+      "ok": true
+    },
+    {
+      "documento": "Código Penal peruano",
+      "articulo": "288",
+      "fragmentos": 1,
+      "literal_encontrado": "El que produce, vende, pone en circulación, impo",
+      "ok": true
+    }
+  ],
+  "busquedas_semanticas": [
+    {
+      "pregunta": "¿Cómo se protege la dignidad de la persona humana?",
+      "esperado_por_tema_del_texto_local": [
+        "Constitución Política del Perú",
+        "1"
+      ],
+      "rango_en_top_5": 1,
+      "resultados": [
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "1",
+          "similitud_coseno": 0.866193413734436,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "Artículo 1. La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado,"
+        },
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "7",
+          "similitud_coseno": 0.8516451120376587,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "Artículo 7. Todos tienen derecho a la protección de su salud, la del medio familiar y la de la comunidad, así como el deber de contribuir a su promoción y defensa. La persona con discapacidad tiene derecho al respeto de su dignidad y a un régimen legal de protección atención, readaptación y seguridad."
+        },
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "3",
+          "similitud_coseno": 0.8357745409011841,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "Artículo 3. La enumeración de los derechos establecidos en este capítulo no excluye los demás que la Constitución garantiza, ni otros de naturaleza análoga o que se fundan en la dignidad del hombre, o en los principios de soberanía del pueblo, del Estado democrático de derecho y de la forma republicana de gobierno. Capítulo 1 De los derechos sociales y económicos"
+        },
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "2",
+          "similitud_coseno": 0.8271486163139343,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "manera expresa e inequívoca, como infracción punible; ni sancionado con pena no prevista en/aley. Toda persona es considerada inocente mientras no se haya declarado judicialmente su responsabilidad, Nadie puede ser detenido sino por mandamiento escrito y motivado del juez o por las autoridades policiales en caso de flagrante delito. La detención no durará más del tiempo estrictamente necesario para la realización de las investigaciones y, en todo caso, el detenido debe ser puesto a disposición del juzgado correspondiente, dentro del plazo máximo de cuarenta y ocho horas o en el término de la distancia. Estos plazos no se aplican a los casos de terrorismo, espionaje, tráfico cito de drogas y a los deltos cometidos por organizaciones criminales. En tales casos, las autoridades policiales pueden efectuar la detención preventiva de los presuntos implicados por un término no mayor de quince días naturales. Deben dar cuenta al Ministerio Público y al juez, quien puede asumir jurisdicción antes de vencido dicho término. Nadie puede ser incomunicado sino en caso indispensable para el esclarecimiento de un delito, y en la forma y por el tiempo previstos por la ley. La autondad está obligada bajo CONSTITUCIÓN POLTICADELPERO | 17 responsabilidad a señalar, sin dilación y por escrit, el lugar donde se halla la persona detenida. h. Nadie debe ser víctima de violencia moral psíquica o física, ni sometido a tortura o a tratos inhumanos o humillantes. Cualquiera puede pedir de inmediato el examen médico de la persona agraviada O de aquélla imposibiltada de recurrir por sí misma a la autoridad. Carecen de valor las declaraciones obtenidas por la violencia. Quien la emplea incurre en responsabilidad."
+        },
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "7-A",
+          "similitud_coseno": 0.8225171566009521,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "Artículo 7-A. El Estado reconoce el derecho de toda persona a acceder de foma progresiva y universal al agua potable. El Estado garantiza este derecho priorizando el consumo humano sobre otros usos. El Estado promueve el manejo sostenible del agua, el cual se reconoce como un recurso natural esencial y como tal, constituye un bien público y patrimonio de la Nación. Su dominio es inalienable e imprescripible."
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Qué protección tiene la salud de la familia y la comunidad?",
+      "esperado_por_tema_del_texto_local": [
+        "Constitución Política del Perú",
+        "7"
+      ],
+      "rango_en_top_5": 1,
+      "resultados": [
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "7",
+          "similitud_coseno": 0.8716621398925781,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "Artículo 7. Todos tienen derecho a la protección de su salud, la del medio familiar y la de la comunidad, así como el deber de contribuir a su promoción y defensa. La persona con discapacidad tiene derecho al respeto de su dignidad y a un régimen legal de protección atención, readaptación y seguridad."
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "111",
+          "similitud_coseno": 0.8374923467636108,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "El que, por culpa, ocasiona la muerte de una persona, será reprimido con pena privativa de libertad no mayor de dos años o con prestación de servicios comunitarios de cincuenta y dos a ciento cuatro jornadas.”"
+        },
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "1",
+          "similitud_coseno": 0.825625479221344,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "Artículo 1. La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado,"
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "124",
+          "similitud_coseno": 0.8153952360153198,
+          "supera_umbral_motor": false,
+          "texto_fragmento": "El que por culpa causa a otro un daño en el cuerpo o en la salud, será reprimido, por acción privada, con pena privativa de libertad no mayor de un año y con sesenta a ciento veinte días-multa. La pena será privativa de libertad no menor de uno ni mayor de dos años y de sesenta a ciento veinte días-multa, si la lesión es grave, de conformidad a los presupuestos establecidos en el artículo 121. La pena privativa de libertad será no menor de uno ni mayor de tres años si el delito resulta de la inobservancia de reglas de profesión, ocupación o industria y no menor de un año ni mayor de cuatro años cuando sean varias las víctimas del mismo hecho. La pena privativa de la libertad será no menor de cuatro años ni mayor de seis años e inhabilitación, según corresponda, conforme al artículo 36 -incisos 4), 6) y 7)-, si la lesión se comete utilizando vehículo motorizado o arma de fuego, estando el agente bajo el efecto de drogas tóxicas, estupefacientes, sustancias psicotrópicas o sintéticas, o con presencia de alcohol en la sangre en proporción mayor de 0.5 gramos-litro, en el caso de transporte particular, o mayor de 0.25 gramos-litro en el caso de transporte público de pasajeros, mercancías o carga en general, o cuando el delito resulte de la inobservancia de reglas técnicas de tránsito.”"
+        },
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "2",
+          "similitud_coseno": 0.8132195472717285,
+          "supera_umbral_motor": false,
+          "texto_fragmento": "o muy grave peligro de su perpetración. Las excepciones por motivos de sanidad o de grave riesgo son reguladas por la ley. Al secreto y a la inviolabilidad de sus comunicaciones y documentos privados. Las comunicaciones, telecomunicaciones o sus instrumentos sólo pueden ser abiertos, incautados, interceptados o intervenidos por mandamiento motivado del juez, con las garantías previstas en la ley. Se guarda secreto de los asuntos ajenos al hecho que motiva su examen. Los documentos privados obtenidos con violación de este precepto no tienen efecto legal Los libros, comprobantes y documentos contables y administaios están sujetos a inspección o. fiscalización de la autoridad competente, de CONSTITUCIÓN POLTICADELPERO | 13 2. 14, 15, 16, E conformidad con la ley. Las acciones que al respecto se tomen no pueden incluir su sustracción 0 incautación, salvo por orden judicial A elegir su lugar de residencia, a transitar por el territorio nacional y a salir de él y entrar en él, salvo limitaciones por razones de sanidad o por mandato judicial o por aplicación de la ley de extranjería. A reunirse pacíficamente sin armas. Las reuniones enlocales privados o abiertos al público no requieren aviso previo, Las que se convocan en plazas y vías públicas exigen anuncio anticipado a la autoridad, la que puede prohibirlas solamente por motivos probados de seguridad o de sanidad públicas. A asociarse y a constituir fundaciones y diversas formas de organización jurídica sin fines de lucro, sin autorización previa y con arreglo a ley. No pueden ser disueltas por resolución administrativa. A contratar con fines líctos, siempre que no se contravengan leyes de orden público A trabajar libremente, con sujeción a ley. Ala propiedad y a la herencia. A participar, en forma individual o asociada, en la vida política, económica, social y cultural de la Nación. Los ciudadanos tienen, conforme a ley, los 19. 20. derechos de elección, de remoción o revocación de autoridades, de iniciativa legislativa y de referéndum. A mantener reserva sobre"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Qué se reconoce sobre el acceso al agua potable?",
+      "esperado_por_tema_del_texto_local": [
+        "Constitución Política del Perú",
+        "7-A"
+      ],
+      "rango_en_top_5": 1,
+      "resultados": [
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "7-A",
+          "similitud_coseno": 0.8928400278091431,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "Artículo 7-A. El Estado reconoce el derecho de toda persona a acceder de foma progresiva y universal al agua potable. El Estado garantiza este derecho priorizando el consumo humano sobre otros usos. El Estado promueve el manejo sostenible del agua, el cual se reconoce como un recurso natural esencial y como tal, constituye un bien público y patrimonio de la Nación. Su dominio es inalienable e imprescripible."
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "288",
+          "similitud_coseno": 0.8119031190872192,
+          "supera_umbral_motor": false,
+          "texto_fragmento": "El que produce, vende, pone en circulación, importa o toma en depósito alimentos, aguas, bebidas o bienes destinados al uso o consumo humano, a sabiendas de que son contaminados, falsificados o adulterados, será reprimido con pena privativa de libertad no menor de cuatro ni mayor de ocho años. Cuando el agente actúa por culpa, la pena privativa de libertad será no mayor de dos años.”"
+        },
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "3",
+          "similitud_coseno": 0.7926914691925049,
+          "supera_umbral_motor": false,
+          "texto_fragmento": "Artículo 3. La enumeración de los derechos establecidos en este capítulo no excluye los demás que la Constitución garantiza, ni otros de naturaleza análoga o que se fundan en la dignidad del hombre, o en los principios de soberanía del pueblo, del Estado democrático de derecho y de la forma republicana de gobierno. Capítulo 1 De los derechos sociales y económicos"
+        },
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "7",
+          "similitud_coseno": 0.7882339954376221,
+          "supera_umbral_motor": false,
+          "texto_fragmento": "Artículo 7. Todos tienen derecho a la protección de su salud, la del medio familiar y la de la comunidad, así como el deber de contribuir a su promoción y defensa. La persona con discapacidad tiene derecho al respeto de su dignidad y a un régimen legal de protección atención, readaptación y seguridad."
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "124",
+          "similitud_coseno": 0.7836015820503235,
+          "supera_umbral_motor": false,
+          "texto_fragmento": "El que por culpa causa a otro un daño en el cuerpo o en la salud, será reprimido, por acción privada, con pena privativa de libertad no mayor de un año y con sesenta a ciento veinte días-multa. La pena será privativa de libertad no menor de uno ni mayor de dos años y de sesenta a ciento veinte días-multa, si la lesión es grave, de conformidad a los presupuestos establecidos en el artículo 121. La pena privativa de libertad será no menor de uno ni mayor de tres años si el delito resulta de la inobservancia de reglas de profesión, ocupación o industria y no menor de un año ni mayor de cuatro años cuando sean varias las víctimas del mismo hecho. La pena privativa de la libertad será no menor de cuatro años ni mayor de seis años e inhabilitación, según corresponda, conforme al artículo 36 -incisos 4), 6) y 7)-, si la lesión se comete utilizando vehículo motorizado o arma de fuego, estando el agente bajo el efecto de drogas tóxicas, estupefacientes, sustancias psicotrópicas o sintéticas, o con presencia de alcohol en la sangre en proporción mayor de 0.5 gramos-litro, en el caso de transporte particular, o mayor de 0.25 gramos-litro en el caso de transporte público de pasajeros, mercancías o carga en general, o cuando el delito resulte de la inobservancia de reglas técnicas de tránsito.”"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Cuándo comienza la ejecución de un delito sin que llegue a consumarse?",
+      "esperado_por_tema_del_texto_local": [
+        "Código Penal peruano",
+        "16"
+      ],
+      "rango_en_top_5": 1,
+      "resultados": [
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "16",
+          "similitud_coseno": 0.8773249983787537,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "En la tentativa el agente comienza la ejecución de un delito, que decidió cometer, sin consumarlo. El juez reprimirá la tentativa disminuyendo prudencialmente la pena, excepto en los casos de los delitos regulados en los artículos 108-B, 152, 189, 200, con excepción de los párrafos tercero y cuarto, y 317 o en los delitos comprendidos en el Título I-A y en el Capítulo IX del Título IV del Libro Segundo, donde la disminución no es mayor que un tercio del mínimo de la pena fijada por ley.”"
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "288",
+          "similitud_coseno": 0.8463048338890076,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "El que produce, vende, pone en circulación, importa o toma en depósito alimentos, aguas, bebidas o bienes destinados al uso o consumo humano, a sabiendas de que son contaminados, falsificados o adulterados, será reprimido con pena privativa de libertad no menor de cuatro ni mayor de ocho años. Cuando el agente actúa por culpa, la pena privativa de libertad será no mayor de dos años.”"
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "124",
+          "similitud_coseno": 0.8436497449874878,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "El que por culpa causa a otro un daño en el cuerpo o en la salud, será reprimido, por acción privada, con pena privativa de libertad no mayor de un año y con sesenta a ciento veinte días-multa. La pena será privativa de libertad no menor de uno ni mayor de dos años y de sesenta a ciento veinte días-multa, si la lesión es grave, de conformidad a los presupuestos establecidos en el artículo 121. La pena privativa de libertad será no menor de uno ni mayor de tres años si el delito resulta de la inobservancia de reglas de profesión, ocupación o industria y no menor de un año ni mayor de cuatro años cuando sean varias las víctimas del mismo hecho. La pena privativa de la libertad será no menor de cuatro años ni mayor de seis años e inhabilitación, según corresponda, conforme al artículo 36 -incisos 4), 6) y 7)-, si la lesión se comete utilizando vehículo motorizado o arma de fuego, estando el agente bajo el efecto de drogas tóxicas, estupefacientes, sustancias psicotrópicas o sintéticas, o con presencia de alcohol en la sangre en proporción mayor de 0.5 gramos-litro, en el caso de transporte particular, o mayor de 0.25 gramos-litro en el caso de transporte público de pasajeros, mercancías o carga en general, o cuando el delito resulte de la inobservancia de reglas técnicas de tránsito.”"
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "111",
+          "similitud_coseno": 0.8383259773254395,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "El que, por culpa, ocasiona la muerte de una persona, será reprimido con pena privativa de libertad no mayor de dos años o con prestación de servicios comunitarios de cincuenta y dos a ciento cuatro jornadas.”"
+        },
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "2",
+          "similitud_coseno": 0.835953414440155,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "manera expresa e inequívoca, como infracción punible; ni sancionado con pena no prevista en/aley. Toda persona es considerada inocente mientras no se haya declarado judicialmente su responsabilidad, Nadie puede ser detenido sino por mandamiento escrito y motivado del juez o por las autoridades policiales en caso de flagrante delito. La detención no durará más del tiempo estrictamente necesario para la realización de las investigaciones y, en todo caso, el detenido debe ser puesto a disposición del juzgado correspondiente, dentro del plazo máximo de cuarenta y ocho horas o en el término de la distancia. Estos plazos no se aplican a los casos de terrorismo, espionaje, tráfico cito de drogas y a los deltos cometidos por organizaciones criminales. En tales casos, las autoridades policiales pueden efectuar la detención preventiva de los presuntos implicados por un término no mayor de quince días naturales. Deben dar cuenta al Ministerio Público y al juez, quien puede asumir jurisdicción antes de vencido dicho término. Nadie puede ser incomunicado sino en caso indispensable para el esclarecimiento de un delito, y en la forma y por el tiempo previstos por la ley. La autondad está obligada bajo CONSTITUCIÓN POLTICADELPERO | 17 responsabilidad a señalar, sin dilación y por escrit, el lugar donde se halla la persona detenida. h. Nadie debe ser víctima de violencia moral psíquica o física, ni sometido a tortura o a tratos inhumanos o humillantes. Cualquiera puede pedir de inmediato el examen médico de la persona agraviada O de aquélla imposibiltada de recurrir por sí misma a la autoridad. Carecen de valor las declaraciones obtenidas por la violencia. Quien la emplea incurre en responsabilidad."
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Qué ocurre si alguien presta auxilio dolosamente para realizar un hecho punible?",
+      "esperado_por_tema_del_texto_local": [
+        "Código Penal peruano",
+        "25"
+      ],
+      "rango_en_top_5": 1,
+      "resultados": [
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "25",
+          "similitud_coseno": 0.9168190956115723,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "El que, dolosamente, preste auxilio para la realización del hecho punible, sin el cual no se hubiere perpetrado, será reprimido con la pena prevista para el autor. A los que, de cualquier otro modo, hubieran dolosamente prestado asistencia se les disminuirá prudencialmente la pena. El cómplice siempre responde en referencia al hecho punible cometido por el autor, aunque los elementos especiales que fundamentan la penalidad del tipo legal no concurran en él.”"
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "111",
+          "similitud_coseno": 0.8419378995895386,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "El que, por culpa, ocasiona la muerte de una persona, será reprimido con pena privativa de libertad no mayor de dos años o con prestación de servicios comunitarios de cincuenta y dos a ciento cuatro jornadas.”"
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "124",
+          "similitud_coseno": 0.8414892554283142,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "El que por culpa causa a otro un daño en el cuerpo o en la salud, será reprimido, por acción privada, con pena privativa de libertad no mayor de un año y con sesenta a ciento veinte días-multa. La pena será privativa de libertad no menor de uno ni mayor de dos años y de sesenta a ciento veinte días-multa, si la lesión es grave, de conformidad a los presupuestos establecidos en el artículo 121. La pena privativa de libertad será no menor de uno ni mayor de tres años si el delito resulta de la inobservancia de reglas de profesión, ocupación o industria y no menor de un año ni mayor de cuatro años cuando sean varias las víctimas del mismo hecho. La pena privativa de la libertad será no menor de cuatro años ni mayor de seis años e inhabilitación, según corresponda, conforme al artículo 36 -incisos 4), 6) y 7)-, si la lesión se comete utilizando vehículo motorizado o arma de fuego, estando el agente bajo el efecto de drogas tóxicas, estupefacientes, sustancias psicotrópicas o sintéticas, o con presencia de alcohol en la sangre en proporción mayor de 0.5 gramos-litro, en el caso de transporte particular, o mayor de 0.25 gramos-litro en el caso de transporte público de pasajeros, mercancías o carga en general, o cuando el delito resulte de la inobservancia de reglas técnicas de tránsito.”"
+        },
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "2",
+          "similitud_coseno": 0.835983157157898,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "manera expresa e inequívoca, como infracción punible; ni sancionado con pena no prevista en/aley. Toda persona es considerada inocente mientras no se haya declarado judicialmente su responsabilidad, Nadie puede ser detenido sino por mandamiento escrito y motivado del juez o por las autoridades policiales en caso de flagrante delito. La detención no durará más del tiempo estrictamente necesario para la realización de las investigaciones y, en todo caso, el detenido debe ser puesto a disposición del juzgado correspondiente, dentro del plazo máximo de cuarenta y ocho horas o en el término de la distancia. Estos plazos no se aplican a los casos de terrorismo, espionaje, tráfico cito de drogas y a los deltos cometidos por organizaciones criminales. En tales casos, las autoridades policiales pueden efectuar la detención preventiva de los presuntos implicados por un término no mayor de quince días naturales. Deben dar cuenta al Ministerio Público y al juez, quien puede asumir jurisdicción antes de vencido dicho término. Nadie puede ser incomunicado sino en caso indispensable para el esclarecimiento de un delito, y en la forma y por el tiempo previstos por la ley. La autondad está obligada bajo CONSTITUCIÓN POLTICADELPERO | 17 responsabilidad a señalar, sin dilación y por escrit, el lugar donde se halla la persona detenida. h. Nadie debe ser víctima de violencia moral psíquica o física, ni sometido a tortura o a tratos inhumanos o humillantes. Cualquiera puede pedir de inmediato el examen médico de la persona agraviada O de aquélla imposibiltada de recurrir por sí misma a la autoridad. Carecen de valor las declaraciones obtenidas por la violencia. Quien la emplea incurre en responsabilidad."
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "16",
+          "similitud_coseno": 0.8279107809066772,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "En la tentativa el agente comienza la ejecución de un delito, que decidió cometer, sin consumarlo. El juez reprimirá la tentativa disminuyendo prudencialmente la pena, excepto en los casos de los delitos regulados en los artículos 108-B, 152, 189, 200, con excepción de los párrafos tercero y cuarto, y 317 o en los delitos comprendidos en el Título I-A y en el Capítulo IX del Título IV del Libro Segundo, donde la disminución no es mayor que un tercio del mínimo de la pena fijada por ley.”"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Qué se señala sobre ocasionar la muerte de una persona por culpa?",
+      "esperado_por_tema_del_texto_local": [
+        "Código Penal peruano",
+        "111"
+      ],
+      "rango_en_top_5": 1,
+      "resultados": [
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "111",
+          "similitud_coseno": 0.8786601424217224,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "El que, por culpa, ocasiona la muerte de una persona, será reprimido con pena privativa de libertad no mayor de dos años o con prestación de servicios comunitarios de cincuenta y dos a ciento cuatro jornadas.”"
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "124",
+          "similitud_coseno": 0.8395546078681946,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "El que por culpa causa a otro un daño en el cuerpo o en la salud, será reprimido, por acción privada, con pena privativa de libertad no mayor de un año y con sesenta a ciento veinte días-multa. La pena será privativa de libertad no menor de uno ni mayor de dos años y de sesenta a ciento veinte días-multa, si la lesión es grave, de conformidad a los presupuestos establecidos en el artículo 121. La pena privativa de libertad será no menor de uno ni mayor de tres años si el delito resulta de la inobservancia de reglas de profesión, ocupación o industria y no menor de un año ni mayor de cuatro años cuando sean varias las víctimas del mismo hecho. La pena privativa de la libertad será no menor de cuatro años ni mayor de seis años e inhabilitación, según corresponda, conforme al artículo 36 -incisos 4), 6) y 7)-, si la lesión se comete utilizando vehículo motorizado o arma de fuego, estando el agente bajo el efecto de drogas tóxicas, estupefacientes, sustancias psicotrópicas o sintéticas, o con presencia de alcohol en la sangre en proporción mayor de 0.5 gramos-litro, en el caso de transporte particular, o mayor de 0.25 gramos-litro en el caso de transporte público de pasajeros, mercancías o carga en general, o cuando el delito resulte de la inobservancia de reglas técnicas de tránsito.”"
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "25",
+          "similitud_coseno": 0.8214280605316162,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "El que, dolosamente, preste auxilio para la realización del hecho punible, sin el cual no se hubiere perpetrado, será reprimido con la pena prevista para el autor. A los que, de cualquier otro modo, hubieran dolosamente prestado asistencia se les disminuirá prudencialmente la pena. El cómplice siempre responde en referencia al hecho punible cometido por el autor, aunque los elementos especiales que fundamentan la penalidad del tipo legal no concurran en él.”"
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "288",
+          "similitud_coseno": 0.8193584084510803,
+          "supera_umbral_motor": false,
+          "texto_fragmento": "El que produce, vende, pone en circulación, importa o toma en depósito alimentos, aguas, bebidas o bienes destinados al uso o consumo humano, a sabiendas de que son contaminados, falsificados o adulterados, será reprimido con pena privativa de libertad no menor de cuatro ni mayor de ocho años. Cuando el agente actúa por culpa, la pena privativa de libertad será no mayor de dos años.”"
+        },
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "2",
+          "similitud_coseno": 0.8162055611610413,
+          "supera_umbral_motor": false,
+          "texto_fragmento": "manera expresa e inequívoca, como infracción punible; ni sancionado con pena no prevista en/aley. Toda persona es considerada inocente mientras no se haya declarado judicialmente su responsabilidad, Nadie puede ser detenido sino por mandamiento escrito y motivado del juez o por las autoridades policiales en caso de flagrante delito. La detención no durará más del tiempo estrictamente necesario para la realización de las investigaciones y, en todo caso, el detenido debe ser puesto a disposición del juzgado correspondiente, dentro del plazo máximo de cuarenta y ocho horas o en el término de la distancia. Estos plazos no se aplican a los casos de terrorismo, espionaje, tráfico cito de drogas y a los deltos cometidos por organizaciones criminales. En tales casos, las autoridades policiales pueden efectuar la detención preventiva de los presuntos implicados por un término no mayor de quince días naturales. Deben dar cuenta al Ministerio Público y al juez, quien puede asumir jurisdicción antes de vencido dicho término. Nadie puede ser incomunicado sino en caso indispensable para el esclarecimiento de un delito, y en la forma y por el tiempo previstos por la ley. La autondad está obligada bajo CONSTITUCIÓN POLTICADELPERO | 17 responsabilidad a señalar, sin dilación y por escrit, el lugar donde se halla la persona detenida. h. Nadie debe ser víctima de violencia moral psíquica o física, ni sometido a tortura o a tratos inhumanos o humillantes. Cualquiera puede pedir de inmediato el examen médico de la persona agraviada O de aquélla imposibiltada de recurrir por sí misma a la autoridad. Carecen de valor las declaraciones obtenidas por la violencia. Quien la emplea incurre en responsabilidad."
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Qué se indica sobre causar por culpa un daño en el cuerpo o la salud?",
+      "esperado_por_tema_del_texto_local": [
+        "Código Penal peruano",
+        "124"
+      ],
+      "rango_en_top_5": 2,
+      "resultados": [
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "111",
+          "similitud_coseno": 0.8480289578437805,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "El que, por culpa, ocasiona la muerte de una persona, será reprimido con pena privativa de libertad no mayor de dos años o con prestación de servicios comunitarios de cincuenta y dos a ciento cuatro jornadas.”"
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "124",
+          "similitud_coseno": 0.8384891748428345,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "El que por culpa causa a otro un daño en el cuerpo o en la salud, será reprimido, por acción privada, con pena privativa de libertad no mayor de un año y con sesenta a ciento veinte días-multa. La pena será privativa de libertad no menor de uno ni mayor de dos años y de sesenta a ciento veinte días-multa, si la lesión es grave, de conformidad a los presupuestos establecidos en el artículo 121. La pena privativa de libertad será no menor de uno ni mayor de tres años si el delito resulta de la inobservancia de reglas de profesión, ocupación o industria y no menor de un año ni mayor de cuatro años cuando sean varias las víctimas del mismo hecho. La pena privativa de la libertad será no menor de cuatro años ni mayor de seis años e inhabilitación, según corresponda, conforme al artículo 36 -incisos 4), 6) y 7)-, si la lesión se comete utilizando vehículo motorizado o arma de fuego, estando el agente bajo el efecto de drogas tóxicas, estupefacientes, sustancias psicotrópicas o sintéticas, o con presencia de alcohol en la sangre en proporción mayor de 0.5 gramos-litro, en el caso de transporte particular, o mayor de 0.25 gramos-litro en el caso de transporte público de pasajeros, mercancías o carga en general, o cuando el delito resulte de la inobservancia de reglas técnicas de tránsito.”"
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "288",
+          "similitud_coseno": 0.8286575078964233,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "El que produce, vende, pone en circulación, importa o toma en depósito alimentos, aguas, bebidas o bienes destinados al uso o consumo humano, a sabiendas de que son contaminados, falsificados o adulterados, será reprimido con pena privativa de libertad no menor de cuatro ni mayor de ocho años. Cuando el agente actúa por culpa, la pena privativa de libertad será no mayor de dos años.”"
+        },
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "2",
+          "similitud_coseno": 0.813834547996521,
+          "supera_umbral_motor": false,
+          "texto_fragmento": "manera expresa e inequívoca, como infracción punible; ni sancionado con pena no prevista en/aley. Toda persona es considerada inocente mientras no se haya declarado judicialmente su responsabilidad, Nadie puede ser detenido sino por mandamiento escrito y motivado del juez o por las autoridades policiales en caso de flagrante delito. La detención no durará más del tiempo estrictamente necesario para la realización de las investigaciones y, en todo caso, el detenido debe ser puesto a disposición del juzgado correspondiente, dentro del plazo máximo de cuarenta y ocho horas o en el término de la distancia. Estos plazos no se aplican a los casos de terrorismo, espionaje, tráfico cito de drogas y a los deltos cometidos por organizaciones criminales. En tales casos, las autoridades policiales pueden efectuar la detención preventiva de los presuntos implicados por un término no mayor de quince días naturales. Deben dar cuenta al Ministerio Público y al juez, quien puede asumir jurisdicción antes de vencido dicho término. Nadie puede ser incomunicado sino en caso indispensable para el esclarecimiento de un delito, y en la forma y por el tiempo previstos por la ley. La autondad está obligada bajo CONSTITUCIÓN POLTICADELPERO | 17 responsabilidad a señalar, sin dilación y por escrit, el lugar donde se halla la persona detenida. h. Nadie debe ser víctima de violencia moral psíquica o física, ni sometido a tortura o a tratos inhumanos o humillantes. Cualquiera puede pedir de inmediato el examen médico de la persona agraviada O de aquélla imposibiltada de recurrir por sí misma a la autoridad. Carecen de valor las declaraciones obtenidas por la violencia. Quien la emplea incurre en responsabilidad."
+        },
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "7",
+          "similitud_coseno": 0.8076750040054321,
+          "supera_umbral_motor": false,
+          "texto_fragmento": "Artículo 7. Todos tienen derecho a la protección de su salud, la del medio familiar y la de la comunidad, así como el deber de contribuir a su promoción y defensa. La persona con discapacidad tiene derecho al respeto de su dignidad y a un régimen legal de protección atención, readaptación y seguridad."
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Qué se menciona sobre vender alimentos contaminados a sabiendas o actuar por culpa?",
+      "esperado_por_tema_del_texto_local": [
+        "Código Penal peruano",
+        "288"
+      ],
+      "rango_en_top_5": 1,
+      "resultados": [
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "288",
+          "similitud_coseno": 0.8632383942604065,
+          "supera_umbral_motor": true,
+          "texto_fragmento": "El que produce, vende, pone en circulación, importa o toma en depósito alimentos, aguas, bebidas o bienes destinados al uso o consumo humano, a sabiendas de que son contaminados, falsificados o adulterados, será reprimido con pena privativa de libertad no menor de cuatro ni mayor de ocho años. Cuando el agente actúa por culpa, la pena privativa de libertad será no mayor de dos años.”"
+        },
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "2",
+          "similitud_coseno": 0.8063942790031433,
+          "supera_umbral_motor": false,
+          "texto_fragmento": "manera expresa e inequívoca, como infracción punible; ni sancionado con pena no prevista en/aley. Toda persona es considerada inocente mientras no se haya declarado judicialmente su responsabilidad, Nadie puede ser detenido sino por mandamiento escrito y motivado del juez o por las autoridades policiales en caso de flagrante delito. La detención no durará más del tiempo estrictamente necesario para la realización de las investigaciones y, en todo caso, el detenido debe ser puesto a disposición del juzgado correspondiente, dentro del plazo máximo de cuarenta y ocho horas o en el término de la distancia. Estos plazos no se aplican a los casos de terrorismo, espionaje, tráfico cito de drogas y a los deltos cometidos por organizaciones criminales. En tales casos, las autoridades policiales pueden efectuar la detención preventiva de los presuntos implicados por un término no mayor de quince días naturales. Deben dar cuenta al Ministerio Público y al juez, quien puede asumir jurisdicción antes de vencido dicho término. Nadie puede ser incomunicado sino en caso indispensable para el esclarecimiento de un delito, y en la forma y por el tiempo previstos por la ley. La autondad está obligada bajo CONSTITUCIÓN POLTICADELPERO | 17 responsabilidad a señalar, sin dilación y por escrit, el lugar donde se halla la persona detenida. h. Nadie debe ser víctima de violencia moral psíquica o física, ni sometido a tortura o a tratos inhumanos o humillantes. Cualquiera puede pedir de inmediato el examen médico de la persona agraviada O de aquélla imposibiltada de recurrir por sí misma a la autoridad. Carecen de valor las declaraciones obtenidas por la violencia. Quien la emplea incurre en responsabilidad."
+        },
+        {
+          "documento": "Constitución Política del Perú",
+          "articulo": "2",
+          "similitud_coseno": 0.8049567937850952,
+          "supera_umbral_motor": false,
+          "texto_fragmento": "o muy grave peligro de su perpetración. Las excepciones por motivos de sanidad o de grave riesgo son reguladas por la ley. Al secreto y a la inviolabilidad de sus comunicaciones y documentos privados. Las comunicaciones, telecomunicaciones o sus instrumentos sólo pueden ser abiertos, incautados, interceptados o intervenidos por mandamiento motivado del juez, con las garantías previstas en la ley. Se guarda secreto de los asuntos ajenos al hecho que motiva su examen. Los documentos privados obtenidos con violación de este precepto no tienen efecto legal Los libros, comprobantes y documentos contables y administaios están sujetos a inspección o. fiscalización de la autoridad competente, de CONSTITUCIÓN POLTICADELPERO | 13 2. 14, 15, 16, E conformidad con la ley. Las acciones que al respecto se tomen no pueden incluir su sustracción 0 incautación, salvo por orden judicial A elegir su lugar de residencia, a transitar por el territorio nacional y a salir de él y entrar en él, salvo limitaciones por razones de sanidad o por mandato judicial o por aplicación de la ley de extranjería. A reunirse pacíficamente sin armas. Las reuniones enlocales privados o abiertos al público no requieren aviso previo, Las que se convocan en plazas y vías públicas exigen anuncio anticipado a la autoridad, la que puede prohibirlas solamente por motivos probados de seguridad o de sanidad públicas. A asociarse y a constituir fundaciones y diversas formas de organización jurídica sin fines de lucro, sin autorización previa y con arreglo a ley. No pueden ser disueltas por resolución administrativa. A contratar con fines líctos, siempre que no se contravengan leyes de orden público A trabajar libremente, con sujeción a ley. Ala propiedad y a la herencia. A participar, en forma individual o asociada, en la vida política, económica, social y cultural de la Nación. Los ciudadanos tienen, conforme a ley, los 19. 20. derechos de elección, de remoción o revocación de autoridades, de iniciativa legislativa y de referéndum. A mantener reserva sobre"
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "111",
+          "similitud_coseno": 0.8036952018737793,
+          "supera_umbral_motor": false,
+          "texto_fragmento": "El que, por culpa, ocasiona la muerte de una persona, será reprimido con pena privativa de libertad no mayor de dos años o con prestación de servicios comunitarios de cincuenta y dos a ciento cuatro jornadas.”"
+        },
+        {
+          "documento": "Código Penal peruano",
+          "articulo": "124",
+          "similitud_coseno": 0.8035748600959778,
+          "supera_umbral_motor": false,
+          "texto_fragmento": "El que por culpa causa a otro un daño en el cuerpo o en la salud, será reprimido, por acción privada, con pena privativa de libertad no mayor de un año y con sesenta a ciento veinte días-multa. La pena será privativa de libertad no menor de uno ni mayor de dos años y de sesenta a ciento veinte días-multa, si la lesión es grave, de conformidad a los presupuestos establecidos en el artículo 121. La pena privativa de libertad será no menor de uno ni mayor de tres años si el delito resulta de la inobservancia de reglas de profesión, ocupación o industria y no menor de un año ni mayor de cuatro años cuando sean varias las víctimas del mismo hecho. La pena privativa de la libertad será no menor de cuatro años ni mayor de seis años e inhabilitación, según corresponda, conforme al artículo 36 -incisos 4), 6) y 7)-, si la lesión se comete utilizando vehículo motorizado o arma de fuego, estando el agente bajo el efecto de drogas tóxicas, estupefacientes, sustancias psicotrópicas o sintéticas, o con presencia de alcohol en la sangre en proporción mayor de 0.5 gramos-litro, en el caso de transporte particular, o mayor de 0.25 gramos-litro en el caso de transporte público de pasajeros, mercancías o carga en general, o cuando el delito resulte de la inobservancia de reglas técnicas de tránsito.”"
+        }
+      ]
+    }
+  ],
+  "recuperaciones_esperadas_en_top_5": 8,
+  "juridicamente_verificado": false
+}
