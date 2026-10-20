@@ -1,0 +1,573 @@
+{
+  "formato": "mini-juztina-pilot-v1",
+  "estado": "provisional_pendiente_cotejo_y_autorizacion",
+  "registros": 10,
+  "indexado": false,
+  "cotejo_oficial_realizado": false,
+  "archivo_candidatos": "articles_candidates.jsonl",
+  "sha256_candidatos": "ced16af809467bef73fe5cf0dfd4db792dbdd7956543427880da2690533e81df",
+  "sha256_auditoria": "147e1969ea9f531648039042c7e75a9e6c5df3b926d82563b76693b1ec72aa19",
+  "sha256_informe_auditoria": "eebc8dced4239d14b5cd96ac014564260b523d67a268be261b523d27cd2fe90c",
+  "sha256_aptos": "17e96387bea81e74ec4cee289895cddde1dd405a26e7bfa33c88d0fa3acdf592",
+  "candidatos": [
+    {
+      "id": "constitucion:13024e099fb66be51495cca19ecffad1bd4286c6f8c55d42694ba45eb7667935:1",
+      "documento": "Constitución Política del Perú",
+      "articulo": "1",
+      "motivo_seleccion": "Selección expresa del usuario: candidato constitucional a cotejo.",
+      "origen": {
+        "archivo": "data/sources/constitucion.jsonl",
+        "linea": 1,
+        "sha256_archivo": "13024e099fb66be51495cca19ecffad1bd4286c6f8c55d42694ba45eb7667935",
+        "id_auditoria": "constitucion:13024e099fb66be51495cca19ecffad1bd4286c6f8c55d42694ba45eb7667935:1",
+        "archivo_auditoria": "data/processed/audit_records.jsonl",
+        "fuente_declarada": "Congreso de la República del Perú",
+        "documento_fuente_declarado": "Constitucion-web_2026.pdf",
+        "edicion_declarada": "Mayo de 2026",
+        "pagina_pdf_aproximada_original": 6
+      },
+      "sha256_texto": "f6743b3617fe3a77b3c0486ad0e7f8dcbb56aaa3d4db01059e1be0ff542f358c",
+      "caracteres_texto": 119,
+      "estado_estructural_previo": "requiere_revision",
+      "estado_cotejo_oficial": "pendiente",
+      "juridicamente_verificado": false,
+      "incidencias_auditoria": [
+        {
+          "codigo": "posible_titulo_arrastrado",
+          "detalle": "Frase final sin cierre tras una oración; posible título del artículo siguiente.",
+          "evidencia": "La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado,",
+          "severidad": "review"
+        },
+        {
+          "codigo": "origen_marcado_para_revision",
+          "detalle": "El propio archivo declara extracción pendiente de revisión.",
+          "evidencia": "borrador_ocr_requiere_revision",
+          "severidad": "review"
+        },
+        {
+          "codigo": "pagina_solo_aproximada",
+          "detalle": "Página aproximada conservada solo en trazabilidad; no se convierte en página exacta.",
+          "evidencia": 6,
+          "severidad": "info"
+        },
+        {
+          "codigo": "sin_pagina_pdf_exacta",
+          "detalle": "Se utiliza pagina_pdf=null, sin inventar localizador.",
+          "severidad": "info"
+        },
+        {
+          "codigo": "jerarquia_parcial",
+          "detalle": "Jerarquía ausente/null se convierte en cadena vacía. parte/seccion se conservan en el original, sin equipararlos a capítulos.",
+          "severidad": "info"
+        }
+      ],
+      "observaciones_piloto": [
+        "Integridad, incisos, vigencia y localización PDF pendientes de cotejo oficial.",
+        "Incluido como candidato a cotejo pese a su estado previo requiere_revision; no se reclasifica como apto."
+      ],
+      "evidencia_oficial": {
+        "url_documento": null,
+        "sha256_pdf": null,
+        "pagina_pdf": null,
+        "fecha_edicion": null,
+        "fecha_cotejo": null,
+        "revisor": null,
+        "integridad_inciso_por_inciso": null,
+        "vigencia_a_fecha": null
+      }
+    },
+    {
+      "id": "constitucion:13024e099fb66be51495cca19ecffad1bd4286c6f8c55d42694ba45eb7667935:2",
+      "documento": "Constitución Política del Perú",
+      "articulo": "2",
+      "motivo_seleccion": "Selección expresa del usuario: conservar íntegra la cadena y sus incisos extraídos.",
+      "origen": {
+        "archivo": "data/sources/constitucion.jsonl",
+        "linea": 2,
+        "sha256_archivo": "13024e099fb66be51495cca19ecffad1bd4286c6f8c55d42694ba45eb7667935",
+        "id_auditoria": "constitucion:13024e099fb66be51495cca19ecffad1bd4286c6f8c55d42694ba45eb7667935:2",
+        "archivo_auditoria": "data/processed/audit_records.jsonl",
+        "fuente_declarada": "Congreso de la República del Perú",
+        "documento_fuente_declarado": "Constitucion-web_2026.pdf",
+        "edicion_declarada": "Mayo de 2026",
+        "pagina_pdf_aproximada_original": null
+      },
+      "sha256_texto": "b970f170bdf062ea963561955b29fadd82e5a405918f05d21a9e2637d612fc1c",
+      "caracteres_texto": 9278,
+      "estado_estructural_previo": "requiere_revision",
+      "estado_cotejo_oficial": "pendiente",
+      "juridicamente_verificado": false,
+      "incidencias_auditoria": [
+        {
+          "codigo": "cabecera_pagina_en_texto",
+          "detalle": "Posible encabezado/paginación incrustado. Se conserva literalmente.",
+          "severidad": "review"
+        },
+        {
+          "codigo": "origen_marcado_para_revision",
+          "detalle": "El propio archivo declara extracción pendiente de revisión.",
+          "evidencia": "borrador_ocr_requiere_revision",
+          "severidad": "review"
+        },
+        {
+          "codigo": "sin_pagina_pdf_exacta",
+          "detalle": "Se utiliza pagina_pdf=null, sin inventar localizador.",
+          "severidad": "info"
+        },
+        {
+          "codigo": "jerarquia_parcial",
+          "detalle": "Jerarquía ausente/null se convierte en cadena vacía. parte/seccion se conservan en el original, sin equipararlos a capítulos.",
+          "severidad": "info"
+        }
+      ],
+      "observaciones_piloto": [
+        "Integridad, incisos, vigencia y localización PDF pendientes de cotejo oficial.",
+        "Incluido como candidato a cotejo pese a su estado previo requiere_revision; no se reclasifica como apto.",
+        "Se conserva todo el texto, incluidas numeración OCR irregular, notas y cabeceras; no se reconstruyen incisos ausentes."
+      ],
+      "evidencia_oficial": {
+        "url_documento": null,
+        "sha256_pdf": null,
+        "pagina_pdf": null,
+        "fecha_edicion": null,
+        "fecha_cotejo": null,
+        "revisor": null,
+        "integridad_inciso_por_inciso": null,
+        "vigencia_a_fecha": null
+      }
+    },
+    {
+      "id": "constitucion:13024e099fb66be51495cca19ecffad1bd4286c6f8c55d42694ba45eb7667935:3",
+      "documento": "Constitución Política del Perú",
+      "articulo": "3",
+      "motivo_seleccion": "Selección expresa del usuario: candidato constitucional a cotejo.",
+      "origen": {
+        "archivo": "data/sources/constitucion.jsonl",
+        "linea": 3,
+        "sha256_archivo": "13024e099fb66be51495cca19ecffad1bd4286c6f8c55d42694ba45eb7667935",
+        "id_auditoria": "constitucion:13024e099fb66be51495cca19ecffad1bd4286c6f8c55d42694ba45eb7667935:3",
+        "archivo_auditoria": "data/processed/audit_records.jsonl",
+        "fuente_declarada": "Congreso de la República del Perú",
+        "documento_fuente_declarado": "Constitucion-web_2026.pdf",
+        "edicion_declarada": "Mayo de 2026",
+        "pagina_pdf_aproximada_original": null
+      },
+      "sha256_texto": "0329ed04b7d09bd09e79e5738318fe4c804d2ab6df2daef1ac07b2c19a69bcd8",
+      "caracteres_texto": 365,
+      "estado_estructural_previo": "requiere_revision",
+      "estado_cotejo_oficial": "pendiente",
+      "juridicamente_verificado": false,
+      "incidencias_auditoria": [
+        {
+          "codigo": "posible_titulo_arrastrado",
+          "detalle": "Frase final sin cierre tras una oración; posible título del artículo siguiente.",
+          "evidencia": "Capítulo 1 De los derechos sociales y económicos",
+          "severidad": "review"
+        },
+        {
+          "codigo": "origen_marcado_para_revision",
+          "detalle": "El propio archivo declara extracción pendiente de revisión.",
+          "evidencia": "borrador_ocr_requiere_revision",
+          "severidad": "review"
+        },
+        {
+          "codigo": "sin_pagina_pdf_exacta",
+          "detalle": "Se utiliza pagina_pdf=null, sin inventar localizador.",
+          "severidad": "info"
+        },
+        {
+          "codigo": "jerarquia_parcial",
+          "detalle": "Jerarquía ausente/null se convierte en cadena vacía. parte/seccion se conservan en el original, sin equipararlos a capítulos.",
+          "severidad": "info"
+        }
+      ],
+      "observaciones_piloto": [
+        "Integridad, incisos, vigencia y localización PDF pendientes de cotejo oficial.",
+        "Incluido como candidato a cotejo pese a su estado previo requiere_revision; no se reclasifica como apto."
+      ],
+      "evidencia_oficial": {
+        "url_documento": null,
+        "sha256_pdf": null,
+        "pagina_pdf": null,
+        "fecha_edicion": null,
+        "fecha_cotejo": null,
+        "revisor": null,
+        "integridad_inciso_por_inciso": null,
+        "vigencia_a_fecha": null
+      }
+    },
+    {
+      "id": "constitucion:13024e099fb66be51495cca19ecffad1bd4286c6f8c55d42694ba45eb7667935:7",
+      "documento": "Constitución Política del Perú",
+      "articulo": "7",
+      "motivo_seleccion": "Selección expresa del usuario: candidato constitucional a cotejo.",
+      "origen": {
+        "archivo": "data/sources/constitucion.jsonl",
+        "linea": 7,
+        "sha256_archivo": "13024e099fb66be51495cca19ecffad1bd4286c6f8c55d42694ba45eb7667935",
+        "id_auditoria": "constitucion:13024e099fb66be51495cca19ecffad1bd4286c6f8c55d42694ba45eb7667935:7",
+        "archivo_auditoria": "data/processed/audit_records.jsonl",
+        "fuente_declarada": "Congreso de la República del Perú",
+        "documento_fuente_declarado": "Constitucion-web_2026.pdf",
+        "edicion_declarada": "Mayo de 2026",
+        "pagina_pdf_aproximada_original": 17
+      },
+      "sha256_texto": "6449583d7db16d5aa6dd45509da98206606d2a9933bbceaa1c3d86819b010585",
+      "caracteres_texto": 302,
+      "estado_estructural_previo": "requiere_revision",
+      "estado_cotejo_oficial": "pendiente",
+      "juridicamente_verificado": false,
+      "incidencias_auditoria": [
+        {
+          "codigo": "origen_marcado_para_revision",
+          "detalle": "El propio archivo declara extracción pendiente de revisión.",
+          "evidencia": "borrador_ocr_requiere_revision",
+          "severidad": "review"
+        },
+        {
+          "codigo": "pagina_solo_aproximada",
+          "detalle": "Página aproximada conservada solo en trazabilidad; no se convierte en página exacta.",
+          "evidencia": 17,
+          "severidad": "info"
+        },
+        {
+          "codigo": "sin_pagina_pdf_exacta",
+          "detalle": "Se utiliza pagina_pdf=null, sin inventar localizador.",
+          "severidad": "info"
+        },
+        {
+          "codigo": "jerarquia_parcial",
+          "detalle": "Jerarquía ausente/null se convierte en cadena vacía. parte/seccion se conservan en el original, sin equipararlos a capítulos.",
+          "severidad": "info"
+        }
+      ],
+      "observaciones_piloto": [
+        "Integridad, incisos, vigencia y localización PDF pendientes de cotejo oficial.",
+        "Incluido como candidato a cotejo pese a su estado previo requiere_revision; no se reclasifica como apto."
+      ],
+      "evidencia_oficial": {
+        "url_documento": null,
+        "sha256_pdf": null,
+        "pagina_pdf": null,
+        "fecha_edicion": null,
+        "fecha_cotejo": null,
+        "revisor": null,
+        "integridad_inciso_por_inciso": null,
+        "vigencia_a_fecha": null
+      }
+    },
+    {
+      "id": "constitucion:13024e099fb66be51495cca19ecffad1bd4286c6f8c55d42694ba45eb7667935:8",
+      "documento": "Constitución Política del Perú",
+      "articulo": "7-A",
+      "motivo_seleccion": "Selección expresa del usuario: candidato constitucional a cotejo.",
+      "origen": {
+        "archivo": "data/sources/constitucion.jsonl",
+        "linea": 8,
+        "sha256_archivo": "13024e099fb66be51495cca19ecffad1bd4286c6f8c55d42694ba45eb7667935",
+        "id_auditoria": "constitucion:13024e099fb66be51495cca19ecffad1bd4286c6f8c55d42694ba45eb7667935:8",
+        "archivo_auditoria": "data/processed/audit_records.jsonl",
+        "fuente_declarada": "Congreso de la República del Perú",
+        "documento_fuente_declarado": "Constitucion-web_2026.pdf",
+        "edicion_declarada": "Mayo de 2026",
+        "pagina_pdf_aproximada_original": 17
+      },
+      "sha256_texto": "6bb0b01bb9bffe97903b4eb29e7d07781b1fe7cbec1ce392e98e1a36712ee80e",
+      "caracteres_texto": 411,
+      "estado_estructural_previo": "requiere_revision",
+      "estado_cotejo_oficial": "pendiente",
+      "juridicamente_verificado": false,
+      "incidencias_auditoria": [
+        {
+          "codigo": "origen_marcado_para_revision",
+          "detalle": "El propio archivo declara extracción pendiente de revisión.",
+          "evidencia": "borrador_ocr_requiere_revision",
+          "severidad": "review"
+        },
+        {
+          "codigo": "pagina_solo_aproximada",
+          "detalle": "Página aproximada conservada solo en trazabilidad; no se convierte en página exacta.",
+          "evidencia": 17,
+          "severidad": "info"
+        },
+        {
+          "codigo": "sin_pagina_pdf_exacta",
+          "detalle": "Se utiliza pagina_pdf=null, sin inventar localizador.",
+          "severidad": "info"
+        },
+        {
+          "codigo": "jerarquia_parcial",
+          "detalle": "Jerarquía ausente/null se convierte en cadena vacía. parte/seccion se conservan en el original, sin equipararlos a capítulos.",
+          "severidad": "info"
+        }
+      ],
+      "observaciones_piloto": [
+        "Integridad, incisos, vigencia y localización PDF pendientes de cotejo oficial.",
+        "Incluido como candidato a cotejo pese a su estado previo requiere_revision; no se reclasifica como apto."
+      ],
+      "evidencia_oficial": {
+        "url_documento": null,
+        "sha256_pdf": null,
+        "pagina_pdf": null,
+        "fecha_edicion": null,
+        "fecha_cotejo": null,
+        "revisor": null,
+        "integridad_inciso_por_inciso": null,
+        "vigencia_a_fecha": null
+      }
+    },
+    {
+      "id": "codigo-penal:09427616d524e625b5afd967429b18aaba2f5feb8b73e5a2f6dcdf6958d8eb8c:26",
+      "documento": "Código Penal peruano",
+      "articulo": "16",
+      "motivo_seleccion": "El texto local menciona expresamente tentativa y comienzo de ejecución.",
+      "origen": {
+        "archivo": "data/sources/codigo_penal_articulos.jsonl",
+        "linea": 26,
+        "sha256_archivo": "09427616d524e625b5afd967429b18aaba2f5feb8b73e5a2f6dcdf6958d8eb8c",
+        "id_auditoria": "codigo-penal:09427616d524e625b5afd967429b18aaba2f5feb8b73e5a2f6dcdf6958d8eb8c:26",
+        "archivo_auditoria": "data/processed/audit_records.jsonl",
+        "fuente_declarada": "Código Penal, Editora Perú, actualizado al 2 de julio de 2026",
+        "documento_fuente_declarado": null,
+        "edicion_declarada": null,
+        "pagina_pdf_aproximada_original": null
+      },
+      "sha256_texto": "68c11733cda1c4ce2d6266702e2b8fe477ecf438bfc6d3366fbab319f12ce81d",
+      "caracteres_texto": 492,
+      "estado_estructural_previo": "estructuralmente_apto",
+      "estado_cotejo_oficial": "pendiente",
+      "juridicamente_verificado": false,
+      "incidencias_auditoria": [
+        {
+          "codigo": "sin_pagina_pdf_exacta",
+          "detalle": "Se utiliza pagina_pdf=null, sin inventar localizador.",
+          "severidad": "info"
+        },
+        {
+          "codigo": "jerarquia_parcial",
+          "detalle": "Jerarquía ausente/null se convierte en cadena vacía. parte/seccion se conservan en el original, sin equipararlos a capítulos.",
+          "severidad": "info"
+        }
+      ],
+      "observaciones_piloto": [
+        "Integridad, incisos, vigencia y localización PDF pendientes de cotejo oficial.",
+        "Comilla editorial de cierre presente en la extracción: conservar y cotejar alcance del fragmento."
+      ],
+      "evidencia_oficial": {
+        "url_documento": null,
+        "sha256_pdf": null,
+        "pagina_pdf": null,
+        "fecha_edicion": null,
+        "fecha_cotejo": null,
+        "revisor": null,
+        "integridad_inciso_por_inciso": null,
+        "vigencia_a_fecha": null
+      }
+    },
+    {
+      "id": "codigo-penal:09427616d524e625b5afd967429b18aaba2f5feb8b73e5a2f6dcdf6958d8eb8c:35",
+      "documento": "Código Penal peruano",
+      "articulo": "25",
+      "motivo_seleccion": "El texto local menciona auxilio y asistencia dolosa.",
+      "origen": {
+        "archivo": "data/sources/codigo_penal_articulos.jsonl",
+        "linea": 35,
+        "sha256_archivo": "09427616d524e625b5afd967429b18aaba2f5feb8b73e5a2f6dcdf6958d8eb8c",
+        "id_auditoria": "codigo-penal:09427616d524e625b5afd967429b18aaba2f5feb8b73e5a2f6dcdf6958d8eb8c:35",
+        "archivo_auditoria": "data/processed/audit_records.jsonl",
+        "fuente_declarada": "Código Penal, Editora Perú, actualizado al 2 de julio de 2026",
+        "documento_fuente_declarado": null,
+        "edicion_declarada": null,
+        "pagina_pdf_aproximada_original": null
+      },
+      "sha256_texto": "b5080275fb811ae4473994d288afb55809a168932ac23e9003632f8ec7dc17d7",
+      "caracteres_texto": 462,
+      "estado_estructural_previo": "estructuralmente_apto",
+      "estado_cotejo_oficial": "pendiente",
+      "juridicamente_verificado": false,
+      "incidencias_auditoria": [
+        {
+          "codigo": "sin_pagina_pdf_exacta",
+          "detalle": "Se utiliza pagina_pdf=null, sin inventar localizador.",
+          "severidad": "info"
+        },
+        {
+          "codigo": "jerarquia_parcial",
+          "detalle": "Jerarquía ausente/null se convierte en cadena vacía. parte/seccion se conservan en el original, sin equipararlos a capítulos.",
+          "severidad": "info"
+        }
+      ],
+      "observaciones_piloto": [
+        "Integridad, incisos, vigencia y localización PDF pendientes de cotejo oficial.",
+        "Comilla editorial de cierre presente en la extracción: conservar y cotejar alcance del fragmento."
+      ],
+      "evidencia_oficial": {
+        "url_documento": null,
+        "sha256_pdf": null,
+        "pagina_pdf": null,
+        "fecha_edicion": null,
+        "fecha_cotejo": null,
+        "revisor": null,
+        "integridad_inciso_por_inciso": null,
+        "vigencia_a_fecha": null
+      }
+    },
+    {
+      "id": "codigo-penal:09427616d524e625b5afd967429b18aaba2f5feb8b73e5a2f6dcdf6958d8eb8c:133",
+      "documento": "Código Penal peruano",
+      "articulo": "111",
+      "motivo_seleccion": "El texto local describe causar la muerte por culpa; verificar integridad de párrafos.",
+      "origen": {
+        "archivo": "data/sources/codigo_penal_articulos.jsonl",
+        "linea": 133,
+        "sha256_archivo": "09427616d524e625b5afd967429b18aaba2f5feb8b73e5a2f6dcdf6958d8eb8c",
+        "id_auditoria": "codigo-penal:09427616d524e625b5afd967429b18aaba2f5feb8b73e5a2f6dcdf6958d8eb8c:133",
+        "archivo_auditoria": "data/processed/audit_records.jsonl",
+        "fuente_declarada": "Código Penal, Editora Perú, actualizado al 2 de julio de 2026",
+        "documento_fuente_declarado": null,
+        "edicion_declarada": null,
+        "pagina_pdf_aproximada_original": null
+      },
+      "sha256_texto": "4e9145860cee9dd8dd5203df3d76977ad66e8c84eb676eacac1288f4d725b241",
+      "caracteres_texto": 209,
+      "estado_estructural_previo": "estructuralmente_apto",
+      "estado_cotejo_oficial": "pendiente",
+      "juridicamente_verificado": false,
+      "incidencias_auditoria": [
+        {
+          "codigo": "sin_pagina_pdf_exacta",
+          "detalle": "Se utiliza pagina_pdf=null, sin inventar localizador.",
+          "severidad": "info"
+        },
+        {
+          "codigo": "jerarquia_parcial",
+          "detalle": "Jerarquía ausente/null se convierte en cadena vacía. parte/seccion se conservan en el original, sin equipararlos a capítulos.",
+          "severidad": "info"
+        }
+      ],
+      "observaciones_piloto": [
+        "Integridad, incisos, vigencia y localización PDF pendientes de cotejo oficial.",
+        "Comilla editorial de cierre presente en la extracción: conservar y cotejar alcance del fragmento.",
+        "El registro local es breve: no asumir que contiene todos los párrafos o supuestos del artículo."
+      ],
+      "evidencia_oficial": {
+        "url_documento": null,
+        "sha256_pdf": null,
+        "pagina_pdf": null,
+        "fecha_edicion": null,
+        "fecha_cotejo": null,
+        "revisor": null,
+        "integridad_inciso_por_inciso": null,
+        "vigencia_a_fecha": null
+      }
+    },
+    {
+      "id": "codigo-penal:09427616d524e625b5afd967429b18aaba2f5feb8b73e5a2f6dcdf6958d8eb8c:150",
+      "documento": "Código Penal peruano",
+      "articulo": "124",
+      "motivo_seleccion": "El texto local describe daño corporal o a la salud por culpa.",
+      "origen": {
+        "archivo": "data/sources/codigo_penal_articulos.jsonl",
+        "linea": 150,
+        "sha256_archivo": "09427616d524e625b5afd967429b18aaba2f5feb8b73e5a2f6dcdf6958d8eb8c",
+        "id_auditoria": "codigo-penal:09427616d524e625b5afd967429b18aaba2f5feb8b73e5a2f6dcdf6958d8eb8c:150",
+        "archivo_auditoria": "data/processed/audit_records.jsonl",
+        "fuente_declarada": "Código Penal, Editora Perú, actualizado al 2 de julio de 2026",
+        "documento_fuente_declarado": null,
+        "edicion_declarada": null,
+        "pagina_pdf_aproximada_original": null
+      },
+      "sha256_texto": "284509e6fd12d15fca69c3a02bcd6c7efb2e07bedd2b40dab6918b7d5f205f95",
+      "caracteres_texto": 1302,
+      "estado_estructural_previo": "estructuralmente_apto",
+      "estado_cotejo_oficial": "pendiente",
+      "juridicamente_verificado": false,
+      "incidencias_auditoria": [
+        {
+          "codigo": "sin_pagina_pdf_exacta",
+          "detalle": "Se utiliza pagina_pdf=null, sin inventar localizador.",
+          "severidad": "info"
+        },
+        {
+          "codigo": "jerarquia_parcial",
+          "detalle": "Jerarquía ausente/null se convierte en cadena vacía. parte/seccion se conservan en el original, sin equipararlos a capítulos.",
+          "severidad": "info"
+        }
+      ],
+      "observaciones_piloto": [
+        "Integridad, incisos, vigencia y localización PDF pendientes de cotejo oficial.",
+        "Comilla editorial de cierre presente en la extracción: conservar y cotejar alcance del fragmento."
+      ],
+      "evidencia_oficial": {
+        "url_documento": null,
+        "sha256_pdf": null,
+        "pagina_pdf": null,
+        "fecha_edicion": null,
+        "fecha_cotejo": null,
+        "revisor": null,
+        "integridad_inciso_por_inciso": null,
+        "vigencia_a_fecha": null
+      }
+    },
+    {
+      "id": "codigo-penal:09427616d524e625b5afd967429b18aaba2f5feb8b73e5a2f6dcdf6958d8eb8c:347",
+      "documento": "Código Penal peruano",
+      "articulo": "288",
+      "motivo_seleccion": "El texto local contiene las expresiones a sabiendas y por culpa.",
+      "origen": {
+        "archivo": "data/sources/codigo_penal_articulos.jsonl",
+        "linea": 347,
+        "sha256_archivo": "09427616d524e625b5afd967429b18aaba2f5feb8b73e5a2f6dcdf6958d8eb8c",
+        "id_auditoria": "codigo-penal:09427616d524e625b5afd967429b18aaba2f5feb8b73e5a2f6dcdf6958d8eb8c:347",
+        "archivo_auditoria": "data/processed/audit_records.jsonl",
+        "fuente_declarada": "Código Penal, Editora Perú, actualizado al 2 de julio de 2026",
+        "documento_fuente_declarado": null,
+        "edicion_declarada": null,
+        "pagina_pdf_aproximada_original": null
+      },
+      "sha256_texto": "06601d9d737c1fddb8932ee401a7cce4b37f236f43bcae9c6de5e86f241365fb",
+      "caracteres_texto": 386,
+      "estado_estructural_previo": "estructuralmente_apto",
+      "estado_cotejo_oficial": "pendiente",
+      "juridicamente_verificado": false,
+      "incidencias_auditoria": [
+        {
+          "codigo": "sin_pagina_pdf_exacta",
+          "detalle": "Se utiliza pagina_pdf=null, sin inventar localizador.",
+          "severidad": "info"
+        },
+        {
+          "codigo": "jerarquia_parcial",
+          "detalle": "Jerarquía ausente/null se convierte en cadena vacía. parte/seccion se conservan en el original, sin equipararlos a capítulos.",
+          "severidad": "info"
+        }
+      ],
+      "observaciones_piloto": [
+        "Integridad, incisos, vigencia y localización PDF pendientes de cotejo oficial.",
+        "Comilla editorial de cierre presente en la extracción: conservar y cotejar alcance del fragmento."
+      ],
+      "evidencia_oficial": {
+        "url_documento": null,
+        "sha256_pdf": null,
+        "pagina_pdf": null,
+        "fecha_edicion": null,
+        "fecha_cotejo": null,
+        "revisor": null,
+        "integridad_inciso_por_inciso": null,
+        "vigencia_a_fecha": null
+      }
+    }
+  ],
+  "preferencias_no_cubiertas": [
+    {
+      "documento": "Código Penal peruano",
+      "articulos": [
+        "II",
+        "11",
+        "12"
+      ],
+      "motivo": "Preferentes para legalidad/dolo/culpa, pero en revisión por títulos posiblemente arrastrados; se excluyen para mantener cinco penales estructuralmente aptos."
+    }
+  ],
+  "advertencia": "Copias literales provisionales. Estructura aceptable no certifica integridad, OCR, edición o vigencia. No usar como corpus jurídico validado."
+}

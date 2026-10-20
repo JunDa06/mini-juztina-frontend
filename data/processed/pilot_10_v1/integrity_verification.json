@@ -1,0 +1,27 @@
+{
+  "backup": "C:\\Users\\senat\\Desktop\\Mini-Juztina\\backups\\pilot_10_v1_before_index_20261020T153755Z",
+  "archivos_protegidos": 43,
+  "archivos_modificados": [],
+  "indice_principal_antes": {
+    "existed": false,
+    "files": {}
+  },
+  "indice_principal_despues": {
+    "existed": false,
+    "files": {}
+  },
+  "corpus_produccion_publicado": false,
+  "corpus_piloto_sha256": "ced16af809467bef73fe5cf0dfd4db792dbdd7956543427880da2690533e81df",
+  "candidatos_juridicamente_verificados": 0,
+  "backend_normal_restaurado_y_comprobado": true,
+  "prueba_react_piloto": {
+    "articulo": "16",
+    "documento": "Código Penal peruano",
+    "respuesta_con_cita_validada_textualmente": true,
+    "captura": "REACT_PILOT_PROOF.png"
+  },
+  "pruebas_unitarias": {
+    "aprobadas": 87,
+    "fallidas": 0
+  }
+}
